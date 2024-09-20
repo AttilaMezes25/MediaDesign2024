@@ -41,7 +41,7 @@ szamitogep nem hasznalja */
 
 void setup()
 {
-  size(800,600,P3D); //tedd at 3Dre GPU renderel gyorsabb csak melegszik
+  size(800,600); //tedd at 3Dre GPU renderel gyorsabb csak melegszik
   surface.setResizable(true);
   for(int i = 0; i < nc; i = i + 1)
   {
